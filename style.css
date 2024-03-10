@@ -385,3 +385,61 @@ footer p {
         padding: 80px 60px 20px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    nav {
+        padding: 20px 40px;
+    }
+
+    .main {
+        padding: 0 40px;
+    }
+
+    .main img {
+        width: 340px;
+        height: 340px;
+    }
+
+    .recent {
+        padding: 40px;
+    }
+
+    .featured,
+    .separator {
+        padding: 40px 40px 0;
+    }
+
+    .featured .item .details p,
+    .works-list .item .details p {
+        width: 100%;
+    }
+
+    .page-title {
+        padding: 80px 40px 20px;
+    }
+
+    .content .work-info,
+    .content > p,
+    .content > img,
+    .content > h1,
+    .content > h2,
+    .content > h3,
+    .content .post-list .posts-items,
+    .content .container {
+        width: 100%;
+    }
+
+    .content .container img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .content .container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .content .container .about > p {
+        font-size: 14px;
+    }
+}
