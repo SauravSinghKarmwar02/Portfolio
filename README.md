@@ -1,6 +1,6 @@
 # PortfolioHub
 
-![Preview](preview_image.png)
+![Preview](preview.png)
 
 PortfolioHub is a comprehensive portfolio website template designed to showcase your projects, skills, and experiences in a professional and visually appealing manner.
 
