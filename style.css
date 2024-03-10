@@ -92,7 +92,8 @@ nav .nav-links a.selected {
     transition: background 0.3s ease;
 }
 
-.main .info button:hover {
+.main .info button:hover,
+.content .post-list .posts-items .buttons button:hover {
     background: #1a237e;
 }
 
@@ -136,18 +137,21 @@ nav .nav-links a.selected {
     width: 460px;
 }
 
-.recent .posts .posts-items h3 {
+.recent .posts .posts-items h3,
+.content .post-list .posts-items h3 {
     font-size: 26px;
     margin-bottom: 18px;
 }
 
-.recent .posts .posts-items .info {
+.recent .posts .posts-items .info,
+.content .post-list .posts-items .info {
     display: flex;
     gap: 10px;
     margin-bottom: 18px;
 }
 
-.recent .posts .posts-items .info h5 {
+.recent .posts .posts-items .info h5,
+.content .post-list .posts-items h5 {
     font-style: 18px;
     font-weight: 400;
 }
@@ -326,4 +330,35 @@ footer p {
 
 .content .post-list .posts-items .buttons i:hover {
     color: #303f9f;
+}
+
+.content .container {
+    background-color: #dbedf2;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 970px;
+    border-radius: 20px;
+}
+
+.content .container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.content .container h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.content .container .about > p {
+    text-align: justify;
+}
+
+.content .container .about .email {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 14px;
 }
